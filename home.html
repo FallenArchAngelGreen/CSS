@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Google
+    </title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/color/48/000000/google-logo.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="utf-8" />
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .menu-items {
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.87);
+        float: right;
+    }
+
+    .menu-items i {
+        vertical-align: middle;
+        text-decoration: none;
+    }
+
+    .menu-items span a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu-items span a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .menu-items span img {
+        vertical-align: middle;
+        border-radius: 25px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .google-body {
+        width: 40%;
+        height: 100%;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .center-image,
+    .search,
+    .google-body {
+        text-align: center;
+    }
+
+    .search {
+        width: 100%;
+        color: #222;
+        border: 1px solid #dfe1e5;
+        padding: 14px;
+        border-radius: 24px;
+    }
+
+    .search:focus,
+    .search:hover {
+        box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+        border-color: rgba(223, 225, 229, 0);
+    }
+
+    .search-inner img {
+        height: 24px;
+        width: 24px;
+        background-size: 24px;
+        vertical-align: middle;
+    }
+
+
+    .search-inner input {
+        width: 90%;
+        height: 100%;
+        font-size: 20px;
+        outline: none;
+        border: 0px transparent solid;
+    }
+
+    .buttons button {
+        background-color: #f2f2f2;
+        color: #5F6368;
+        font-size: 14px;
+        height: 36px;
+        padding: 0 16px;
+        border: 1px solid #c6c6c6;
+        color: #222;
+    }
+
+    .buttons button:hover,
+    .buttons button:focus {
+        color: black;
+        background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+        border: 1px solid #c6c6c6;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        color: #222;
+    }
+
+    .apps {
+        position: relative;
+        display: inline-block;
+    }
+
+    .apps-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        width: 284px;
+        padding: 28px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+    }
+
+
+    .apps .apps-content .apps-items:hover {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .apps .apps-content img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .apps:hover .apps-content {
+        display: inline-block;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .apps-items{
+        width:70px;
+        margin:10px;
+        height:70px;
+        overflow: hidden;
+        float:left;  
+    }
+</style>
+
+<body>
+    <br>
+    <div class="menu-items">
+        <span><a href="https://www.google.com/gmail/">Gmail</a></span>
+        <span>&nbsp;&nbsp;</span>
+        <span><a href="https://www.google.co.in/imghp">Images</a></span>
+        <span>&nbsp;&nbsp;</span>
+        <div class="apps">
+            <i id="dropdown-menu" class="material-icons">apps</i>
+            <div class="apps-content">
+                <div class="apps-items"> <img src="http://pluspng.com/img-png/google-logo-png-open-2000.png">Search</div>
+                <div class="apps-items"> <img src="http://pluspng.com/img-png/google-maps-png-google-maps-icon-1600.png">Maps</div>
+
+                <div class="apps-items"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png">Drive</div>
+
+                <div class="apps-items"> <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Google-calendar.svg/1024px-Google-calendar.svg.png">Calendar
+                </div>
+
+                <div class="apps-items"> <img src="https://blogs.acu.edu/innovation_foundry/files/2017/06/google_photos1600.png">Photos
+                </div>
+
+                <div class="apps-items"> <img src="https://i.pinimg.com/originals/09/96/92/099692d1d651d51b7caf3040fce0f748.png">Keep</div>
+
+
+            </div>
+        </div>
+        <span>&nbsp;&nbsp;</span>
+        <span>
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSKapllq70RaCYzPnqLRNKztWB4WfVaAhU3o7sKFcqIZm4RNtO">
+        </span>
+        <span>&nbsp;&nbsp;</span>
+    </div>
+    <br><br>
+    <div class="google-body">
+        <div class="center-image">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
+        <br>
+        <div class="search">
+            <div class="search-inner">
+                <input type="text">
+                <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png">
+            </div>
+        </div>
+        <br><br>
+        <div class="buttons">
+            <button name="google-search">Google Search</button>
+            <span>&nbsp;&nbsp;</span>
+            <button name="feeling-lucky">I'm Feeling Lucky</button>
+        </div>
+    </div>
+</body>
+
+</html>
