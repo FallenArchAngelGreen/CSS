@@ -25,7 +25,7 @@
         text-decoration: none;
     }
 
-    .menu-items span a {
+    .menu-items span a, .apps-content a{
         text-decoration: none;
         color: black;
     }
@@ -126,8 +126,8 @@
     }
 
     .apps .apps-content img {
-        width: 50px;
-        height: 50px;
+        width:70px;
+        height:70px;
     }
 
     .apps:hover .apps-content {
@@ -135,11 +135,9 @@
         border: 1px solid rgba(0, 0, 0, 0.2);
     }
     .apps-items{
-        width:70px;
+        text-align: center;
         margin:10px;
-        height:70px;
-        overflow: hidden;
-        float:left;  
+        display:inline-block;
     }
 </style>
 
@@ -153,19 +151,18 @@
         <div class="apps">
             <i id="dropdown-menu" class="material-icons">apps</i>
             <div class="apps-content">
-                <div class="apps-items"> <img src="http://pluspng.com/img-png/google-logo-png-open-2000.png">Search</div>
-                <div class="apps-items"> <img src="http://pluspng.com/img-png/google-maps-png-google-maps-icon-1600.png">Maps</div>
+                <div class="apps-items"><a href=#><img src="http://pluspng.com/img-png/google-logo-png-open-2000.png"><br>Search</a></div>
+                <div class="apps-items"> <a href=#><img src="http://pluspng.com/img-png/google-maps-png-google-maps-icon-1600.png"><br>Maps</a></div>
 
-                <div class="apps-items"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png">Drive</div>
-
-                <div class="apps-items"> <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Google-calendar.svg/1024px-Google-calendar.svg.png">Calendar
+                <div class="apps-items"> <a href=#><img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png"><br>Drive</a></div>
+                <div class="apps-items"> <a href=#><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Google-calendar.svg/1024px-Google-calendar.svg.png"><br>Calendar</a>
                 </div>
 
-                <div class="apps-items"> <img src="https://blogs.acu.edu/innovation_foundry/files/2017/06/google_photos1600.png">Photos
+                <div class="apps-items"> <a href=#><img src="https://blogs.acu.edu/innovation_foundry/files/2017/06/google_photos1600.png"><br>Photos</a>
                 </div>
 
-                <div class="apps-items"> <img src="https://i.pinimg.com/originals/09/96/92/099692d1d651d51b7caf3040fce0f748.png">Keep</div>
+                <div class="apps-items"><a href=#> <img src="https://i.pinimg.com/originals/09/96/92/099692d1d651d51b7caf3040fce0f748.png"><br>Keep</a></div>
 
 
             </div>
@@ -183,6 +180,7 @@
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
         <br>
+        <form>
         <div class="search">
             <div class="search-inner">
                 <input type="text">
@@ -195,6 +193,7 @@
             <span>&nbsp;&nbsp;</span>
             <button name="feeling-lucky">I'm Feeling Lucky</button>
         </div>
+        </form>
     </div>
 </body>
 
